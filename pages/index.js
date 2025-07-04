@@ -1,8 +1,8 @@
 // File: pages/index.js
 // Entry point for AuraSpeed AI Assistant dashboard
 import React, { useState, useEffect } from "react";
-import { Textarea } from "@/components/ui/textarea";
-import { Button } from "@/components/ui/button";
+import { Textarea } from "../components/ui/textarea";
+import { Button } from "../components/ui/button";
 
 export default function AuraSpeedAssistant() {
   const [showSplash, setShowSplash] = useState(true);
